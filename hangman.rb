@@ -5,7 +5,7 @@ hangman = Game.new
 
 def prompt
   # ask the user if they would like to play again
-  puts 'Would you like to play again? Y/n'
+  puts 'Would you like to play again? Y/N'
   answer = gets.chomp
   # check the if the answer starts with y
   answer =~ /^y.*$/i
